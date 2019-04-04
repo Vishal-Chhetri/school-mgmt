@@ -8,13 +8,20 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { StudentdashboardComponent } from './studentdashboard/studentdashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AdminComponent } from './admin/admin.component';
+import { ParentComponent } from './parent/parent.component';
+import { TeacherComponent } from './teacher/teacher.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     routingComponent,
-    StudentdashboardComponent
+    StudentdashboardComponent,
+    AdminComponent,
+    ParentComponent,
+    TeacherComponent,
+    
   ],
   imports: [
     BrowserModule,
